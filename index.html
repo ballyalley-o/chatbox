@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+        />
+    <style>
+        .container {
+            margin-top: 50px;
+        }
+
+        .chatbox-body {
+            background-color: #4597e8;
+        }
+
+        .chatbox-title {
+            color: #fff;
+            font-weight: 600;
+            font-family: sans-serif;
+        }
+
+        .card {
+            margin-bottom: 20px;
+        }
+
+        .card-header {
+            background-color: #f8f9fa;
+        }
+
+        .card-footer {
+            background-color: #f8f9fa;
+        }
+
+        .athena {
+            background-color: #8b63b6;
+            color: #fff;
+        }
+
+        .brielle {
+            background-color: #e2ba5c;
+            color: #fff;
+        }
+
+        .cece {
+            background-color: #d5539d;
+            color: #fff;
+        }
+    </style>
+    <title>ChatBOX</title>
+</head>
+<body class="chatbox-body">
+    <div class="container">
+        <h1 class="display-1 chatbox-title">Chat B<i class="fa-brands fa-stack-exchange display-3"></i>X</h1>
+        <hr class="">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header athena">
+                        <h3><i class="fa-brands fa-stack-exchange"></i> Athena</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-header brielle">
+                                            <h5>Brielle</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-text">
+                                                <div class="to1"></div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="input-group">
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter Message"
+                                id="messageTo1"
+                                >
+                            <div class="input-group-append">
+
+                                <button class="send btn btn-primary">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header brielle">
+                        <h3><i class="fa-brands fa-stack-exchange"></i> Brielle</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-header athena">
+                                            <h5>Athena</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-text">
+                                                <p>Message</p>
+                                                <div class="message"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="input-group">
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter Message"
+                                id="messageTo2"
+                                >
+                            <div class="input-group-append">
+                                <button class="btn btn-primary">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header cece">
+                        <h3><i class="fa-brands fa-stack-exchange"></i> Cece</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-header brielle">
+                                            <h5>Brielle</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-text">
+                                                <p>Message</p>
+                                                <div class="message"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="input-group">
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter Message"
+                                id="messageTo1"
+                                >
+                            <div class="input-group-append">
+                                <button class="btn btn-primary">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3><i class="fa-brands fa-stack-exchange"></i> ABC convo</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card">
+                                        <div class="card-header athena">
+                                            <h5>Athena</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-text">
+                                                <p>Message</p>
+                                                <div class="message"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-header brielle">
+                                            <h5>Brielle</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="card-text">
+                                                <p>Message</p>
+                                                <div class="message"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="input-group">
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Enter Message"
+                                id="messageTo1"
+                                >
+                            <div class="input-group-append">
+                                <button class="btn btn-primary">Send</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
